@@ -24,7 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $_SESSION['email'] = $email;
     $_SESSION['password'] = $password;
 
-    // Vous pouvez ici effectuer d'autres opérations sécurisées, comme l'envoi d'un e-mail, l'enregistrement en base de données, etc.
 
     // Redirection vers une autre page après le traitement du formulaire
     header("Location: confirmation.php");
