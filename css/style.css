@@ -1,0 +1,42 @@
+* {
+	padding:0;
+	margin:0;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.bar-menu{
+    background-color: aqua;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.block-global{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    background-color:aqua ;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 3rem;
+    
+}
+
+
+.trait{
+
+    background-color: white;
+   margin: auto;
+    width: 4rem;
+    height: 2px;
+  
+  }
+
